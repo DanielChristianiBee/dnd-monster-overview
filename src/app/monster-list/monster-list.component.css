@@ -1,0 +1,27 @@
+.monster-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .monster-item {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    background-color: #f19d3b;
+    border: 1px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .monster-item:hover {
+    background-color: #cf212a;
+    transform: scale(1.02);
+  }
+  
+  .monster-item h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  

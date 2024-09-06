@@ -1,0 +1,10 @@
+<div class="monsters-container">
+    <div class="monster-list-container">
+      <app-monster-list (monsterSelected)="onMonsterSelected($event)"></app-monster-list>
+    </div>
+    <div class="monster-detail-container" *ngIf="selectedMonster">
+      <app-monster-detail [monster]="selectedMonster"></app-monster-detail>
+    </div>
+  </div>
+  
+  

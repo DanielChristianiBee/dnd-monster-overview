@@ -1,0 +1,8 @@
+<div class="npc-container">
+    <div class="npc-list-container">
+      <app-npcs-list (NpcSelected)="onNpcSelected($event)"></app-npcs-list>
+    </div>
+    <div class="npc-detail-container" *ngIf="selectedNpc">
+      <app-npcs-detail [Npc]="selectedNpc"></app-npcs-detail>
+    </div>
+  </div>

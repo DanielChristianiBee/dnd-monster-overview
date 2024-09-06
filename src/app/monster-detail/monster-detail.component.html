@@ -1,0 +1,7 @@
+<div *ngIf="monster" class="monster-detail">
+    <h2>{{ monster.name }}</h2>
+    <p>{{ monster.description }}</p>
+    <img *ngIf="monster.imageUrl" [src]="monster.imageUrl" alt="{{ monster.name }}">
+  </div>
+  
+  

@@ -1,0 +1,6 @@
+<div class="monster-list">
+    <div class="monster-item" *ngFor="let monster of monsters" (click)="onSelect(monster)">
+      <h1>{{ monster.name }}</h1>
+    </div>
+  </div>
+  

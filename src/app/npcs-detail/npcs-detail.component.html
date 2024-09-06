@@ -1,0 +1,5 @@
+<div *ngIf="Npc" class="npc-detail">
+    <h2>{{ Npc.name }}</h2>
+    <p>{{ Npc.description }}</p>
+    <img *ngIf="Npc.imageUrl" [src]="Npc.imageUrl" alt="{{ Npc.name }}">
+  </div>
