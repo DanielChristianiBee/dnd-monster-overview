@@ -24,3 +24,21 @@
     line-height: 1.5;
   }
   
+  @media (max-width: 768px) {
+    .npc-detail {
+      padding: 10px;
+    }
+  
+    .npc-detail img {
+      height: auto;
+    }
+  
+    .npc-detail h2 {
+      font-size: 1.5em;
+    }
+  
+    .npc-detail p {
+      font-size: 1em;
+    }
+  }
+  

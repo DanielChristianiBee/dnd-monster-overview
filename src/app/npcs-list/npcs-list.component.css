@@ -24,3 +24,14 @@
     font-size: 1.5em;
     color: #333;
   }
+
+  @media (max-width: 768px) {
+    .npc-item {
+      padding: 10px;
+    }
+  
+    .npc-item h1 {
+      font-size: 1.2em;
+    }
+  }
+  

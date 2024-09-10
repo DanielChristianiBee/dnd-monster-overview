@@ -18,3 +18,16 @@
     padding-left: 20px;
   }
   
+  @media (max-width: 768px) {
+    .npc-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .npc-list-container, .npc-detail-container {
+      flex: unset;
+      padding: 0;
+      max-height: auto;
+    }
+  }
+  

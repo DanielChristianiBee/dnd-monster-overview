@@ -52,4 +52,25 @@ body {
     width: 200px; /* Adjust the width as needed */
     /* You can also use percentage width, e.g., width: 50%; */
   }
+
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      text-align: center;
+      margin: 5px 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .title-image {
+      width: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title-image {
+      width: 100px;
+    }
+  }
+  
   

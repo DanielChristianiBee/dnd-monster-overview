@@ -18,3 +18,16 @@
     padding-left: 20px;
   }
   
+  @media (max-width: 768px) {
+    .monsters-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .monster-list-container, .monster-detail-container {
+      flex: unset;
+      padding: 0;
+      max-height: auto;
+    }
+  }
+  
