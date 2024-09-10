@@ -8,5 +8,11 @@ With this basic application, you will find several dungeons and dragons related 
 
 ## Version
 
-Version 1.0
+Version 1.1
+
+# Updates and changes
+
+Version 1.1
+- Application responsive for Mobile Phone Usage
+- Image path changed so header image is visible when online
 
